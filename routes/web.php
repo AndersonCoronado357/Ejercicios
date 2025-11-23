@@ -54,10 +54,10 @@ Route::prefix('notes')->name('notes.')->group(function () {
     Route::get('/', [NoteController::class, 'index'])->name('index');
     Route::get('/create', [NoteController::class, 'create'])->name('create');
     Route::post('/', [NoteController::class, 'store'])->name('store');
-    Route::get('/{note}', [NoteController::class, 'show'])->name('show');
     Route::get('/{note}/edit', [NoteController::class, 'edit'])->name('edit');
     Route::put('/{note}', [NoteController::class, 'update'])->name('update');
     Route::delete('/{note}', [NoteController::class, 'destroy'])->name('destroy');
+    Route::get('/{note}', [NoteController::class, 'show'])->name('show');
 });
 
 Route::prefix('calendar')->name('calendar.')->group(function () {
