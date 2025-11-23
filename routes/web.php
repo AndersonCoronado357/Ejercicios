@@ -78,10 +78,11 @@ Route::prefix('recipes')->name('recipes.')->group(function () {
     Route::delete('/{recipe}', [RecipeController::class, 'destroy'])->name('destroy');
 });
 
-Route::prefix('memory-game')->name('memory-game.')->group(function () {
+Route::prefix('memory')->name('memory.')->group(function () {
     Route::get('/', [MemoryGameController::class, 'index'])->name('index');
-    Route::post('/score', [MemoryGameController::class, 'saveScore'])->name('save-score');
-    Route::get('/scores', [MemoryGameController::class, 'getScores'])->name('scores');
+    Route::get('/play', [MemoryGameController::class, 'play'])->name('play');
+    Route::post('/save', [MemoryGameController::class, 'store'])->name('store');
+    Route::get('/leaderboard', [MemoryGameController::class, 'leaderboard'])->name('leaderboard');
 });
 
 Route::prefix('surveys')->name('surveys.')->group(function () {

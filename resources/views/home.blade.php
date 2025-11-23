@@ -74,7 +74,7 @@
             <p class="text-gray-600">Busca, guarda y comparte recetas de cocina con filtros avanzados.</p>
         </a>
 
-        <a href="{{ route('memory-game.index') }}" class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1">
+        <a href="{{ route('memory.index') }}" class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition transform hover:-translate-y-1">
             <div class="text-pink-600 text-4xl mb-4">
                 <i class="fas fa-gamepad"></i>
             </div>

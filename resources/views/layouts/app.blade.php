@@ -24,7 +24,7 @@
                     <a href="{{ route('notes.index') }}" class="text-gray-600 hover:text-gray-900 transition">Gestor de Notas</a>
                     <a href="{{ route('calendar.index') }}" class="text-gray-600 hover:text-gray-900 transition">Calendario</a>
                     <a href="{{ route('recipes.index') }}" class="text-gray-600 hover:text-gray-900 transition">Recetas</a>
-                    <a href="{{ route('memory-game.index') }}" class="text-gray-600 hover:text-gray-900 transition">Juego de Memoria</a>
+                    <a href="{{ route('memory.index') }}" class="text-gray-600 hover:text-gray-900 transition">Juego de Memoria</a>
                     <a href="{{ route('surveys.index') }}" class="text-gray-600 hover:text-gray-900 transition">Encuestas</a>
                     <a href="{{ route('stopwatch.index') }}" class="text-gray-600 hover:text-gray-900 transition">Cronómetro</a>
                 </div>
@@ -43,7 +43,7 @@
                 <a href="{{ route('notes.index') }}" class="block py-2 text-gray-600 hover:text-gray-900">Gestor de Notas</a>
                 <a href="{{ route('calendar.index') }}" class="block py-2 text-gray-600 hover:text-gray-900">Calendario</a>
                 <a href="{{ route('recipes.index') }}" class="block py-2 text-gray-600 hover:text-gray-900">Recetas</a>
-                <a href="{{ route('memory-game.index') }}" class="block py-2 text-gray-600 hover:text-gray-900">Juego de Memoria</a>
+                <a href="{{ route('memory.index') }}" class="block py-2 text-gray-600 hover:text-gray-900">Juego de Memoria</a>
                 <a href="{{ route('surveys.index') }}" class="block py-2 text-gray-600 hover:text-gray-900">Encuestas</a>
                 <a href="{{ route('stopwatch.index') }}" class="block py-2 text-gray-600 hover:text-gray-900">Cronómetro</a>
             </div>
