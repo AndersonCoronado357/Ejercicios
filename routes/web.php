@@ -96,4 +96,6 @@ Route::prefix('surveys')->name('surveys.')->group(function () {
 
 Route::prefix('stopwatch')->name('stopwatch.')->group(function () {
     Route::get('/', [StopwatchController::class, 'index'])->name('index');
+    Route::post('/store', [StopwatchController::class, 'store'])->name('store');
+    Route::delete('/{record}', [StopwatchController::class, 'destroy'])->name('destroy');
 });
